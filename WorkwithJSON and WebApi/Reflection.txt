@@ -1,0 +1,25 @@
+
+
+Name : Jacob Nedumattathil Johar
+ID: 102204195
+Workshop 4
+Date: 17 November 2020
+Course: MAP523
+
+By doing this lab I learned about how to read json that is stored in GitHub, usage of url session and completion handler. Also learned how to create to fetch data from a Web Api and use it in our app.
+
+Completion Handler
+
+A completion handler is fundamentally a function that gets passed as a parameter to another function. 
+
+The explanation that we would need to do this is on the grounds that we need to be told when something is finished. For the most part we use functions that return a value, yet this is just valuable when we are accomplishing synchronous work. For asynchronous work we use completion handlers. 
+
+A genuine case of this is the point at which we do a network request. Network requests are asynchronous. This implies that the code won't trust that the solicitation will return before it runs the remainder of the code. So to get around this we have to pass a capacity in and once the solicitation is finished, it will call that work which will play out the necessary activity.
+
+
+Enhancements Done in the project
+---------------------------------
+
+- Added a new struct Tickets
+-Added a new file DataModelManager
+- Implemented a new function fetchData in ViewController
