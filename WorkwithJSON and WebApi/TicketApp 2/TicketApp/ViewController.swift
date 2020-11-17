@@ -204,7 +204,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
             self.ticket.lType = datavalue[1].type
             self.ticket.cType = datavalue[2].type
              
-            self.valueUpdate(bValue: datavalue[0].quantity, lValue: datavalue[1].quantity,cValue: datavalue[2].quantity,bPrice: datavalue[1].price,lPrice: datavalue[1].price,cPrice:  datavalue[2].price, bType:datavalue[0].type, lType :datavalue[1].type, cType: datavalue[2].type  )
+            self.valueUpdate(bValue: datavalue[0].quantity, lValue: datavalue[1].quantity,cValue: datavalue[2].quantity,bPrice: datavalue[0].price,lPrice: datavalue[1].price,cPrice:  datavalue[2].price, bType:datavalue[0].type, lType :datavalue[1].type, cType: datavalue[2].type  )
           DispatchQueue.main.async {
                     self.picker.reloadAllComponents()
             }
